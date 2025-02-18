@@ -11,6 +11,10 @@ keys:
     description: "Day of the month of data recording, timestamp from sensor"
     unit: "day"
     data_type: "integer"
+  season_name:
+    description: "Season of the year"
+    unit: "season name"
+    data_type: "string"
   hour_24h:
     description: "Hour of the day in 24-hour format (HH:MM), timestamp from sensor"
     unit: "hour"

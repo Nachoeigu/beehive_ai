@@ -18,7 +18,6 @@ class Agent:
         self.external_realtime_metadata = external_realtime_metadata
         self.external_forecast_metadata = external_forecast_metadata
 
-
     def analyze(self):
         llm_output = self.model.invoke(
             [
