@@ -1,0 +1,9 @@
+pandas
+httpx
+python-dotenv
+langchain_groq
+pydantic
+fastapi
+uvicorn
+aiofiles
+langchain_google_genai

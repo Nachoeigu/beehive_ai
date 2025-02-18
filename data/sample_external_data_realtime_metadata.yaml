@@ -1,0 +1,113 @@
+columns:
+  current_last_updated_epoch:
+    description: "Time when current conditions were last updated in epoch format (Unix timestamp)"
+    unit: "seconds since Unix epoch"
+    data_type: "integer"
+  current_last_updated:
+    description: "Time when current conditions were last updated in YYYY-MM-DD HH:MM format"
+    data_type: "string"
+  current_temp_c:
+    description: "Temperature in Celsius"
+    unit: "degrees Celsius (°C)"
+    data_type: "float"
+  current_temp_f:
+    description: "Temperature in Fahrenheit"
+    unit: "degrees Fahrenheit (°F)"
+    data_type: "float"
+  current_is_day:
+    description: "Indicates if it is day or night. 1 = Yes, 0 = No"
+    data_type: "integer"
+  current_condition:
+    description: "Text description of weather condition (e.g., 'Sunny', 'Cloudy')"
+    data_type: "string"
+  current_wind_mph:
+    description: "Wind speed in miles per hour"
+    unit: "miles per hour (mph)"
+    data_type: "float"
+  current_wind_kph:
+    description: "Wind speed in kilometers per hour"
+    unit: "kilometers per hour (kph)"
+    data_type: "float"
+  current_wind_degree:
+    description: "Wind direction in degrees"
+    unit: "degrees (°)"
+    data_type: "integer"
+  current_wind_dir:
+    description: "Wind direction as cardinal direction (e.g., 'NW', 'ESE')"
+    data_type: "string"
+  current_pressure_mb:
+    description: "Pressure in millibars"
+    unit: "millibars (mb)"
+    data_type: "float"
+  current_pressure_in:
+    description: "Pressure in inches of mercury"
+    unit: "inches of mercury (in)"
+    data_type: "float"
+  current_precip_mm:
+    description: "Precipitation amount in millimeters"
+    unit: "millimeters (mm)"
+    data_type: "float"
+  current_precip_in:
+    description: "Precipitation amount in inches"
+    unit: "inches (in)"
+    data_type: "float"
+  current_humidity:
+    description: "Humidity percentage"
+    unit: "percentage (%)"
+    data_type: "integer"
+  current_cloud:
+    description: "Cloud cover percentage"
+    unit: "percentage (%)"
+    data_type: "integer"
+  current_feelslike_c:
+    description: "Feels like temperature in Celsius"
+    unit: "degrees Celsius (°C)"
+    data_type: "float"
+  current_feelslike_f:
+    description: "Feels like temperature in Fahrenheit"
+    unit: "degrees Fahrenheit (°F)"
+    data_type: "float"
+  current_windchill_c:
+    description: "Windchill temperature in Celsius"
+    unit: "degrees Celsius (°C)"
+    data_type: "float"
+  current_windchill_f:
+    description: "Windchill temperature in Fahrenheit"
+    unit: "degrees Fahrenheit (°F)"
+    data_type: "float"
+  current_heatindex_c:
+    description: "Heat index temperature in Celsius"
+    unit: "degrees Celsius (°C)"
+    data_type: "float"
+  current_heatindex_f:
+    description: "Heat index temperature in Fahrenheit"
+    unit: "degrees Fahrenheit (°F)"
+    data_type: "float"
+  current_dewpoint_c:
+    description: "Dew point temperature in Celsius"
+    unit: "degrees Celsius (°C)"
+    data_type: "float"
+  current_dewpoint_f:
+    description: "Dew point temperature in Fahrenheit"
+    unit: "degrees Fahrenheit (°F)"
+    data_type: "float"
+  current_vis_km:
+    description: "Visibility in kilometers"
+    unit: "kilometers (km)"
+    data_type: "float"
+  current_vis_miles:
+    description: "Visibility in miles"
+    unit: "miles"
+    data_type: "float"
+  current_uv:
+    description: "UV index"
+    unit: "UV index scale"
+    data_type: "float"
+  current_gust_mph:
+    description: "Wind gust speed in miles per hour"
+    unit: "miles per hour (mph)"
+    data_type: "float"
+  current_gust_kph:
+    description: "Wind gust speed in kilometers per hour"
+    unit: "kilometers per hour (kph)"
+    data_type: "float"

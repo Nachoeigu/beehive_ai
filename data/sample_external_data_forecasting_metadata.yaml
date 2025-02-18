@@ -1,0 +1,131 @@
+columns:
+  forecast_time_epoch:
+    description: "Forecast time in epoch format (Unix timestamp)"
+    unit: "seconds since Unix epoch"
+    data_type: "integer"
+  forecast_time:
+    description: "Forecast time in YYYY-MM-DD HH:MM format"
+    data_type: "string"
+  forecast_temp_c:
+    description: "Forecast temperature in Celsius"
+    unit: "degrees Celsius (°C)"
+    data_type: "float"
+  forecast_temp_f:
+    description: "Forecast temperature in Fahrenheit"
+    unit: "degrees Fahrenheit (°F)"
+    data_type: "float"
+  forecast_is_day:
+    description: "Forecast indicates if it is day or night. 1 = Yes, 0 = No"
+    data_type: "integer"
+  forecast_condition:
+    description: "Forecast text description of weather condition (e.g., 'Sunny', 'Cloudy')"
+    data_type: "string"
+  forecast_wind_mph:
+    description: "Forecast wind speed in miles per hour"
+    unit: "miles per hour (mph)"
+    data_type: "float"
+  forecast_wind_kph:
+    description: "Forecast wind speed in kilometers per hour"
+    unit: "kilometers per hour (kph)"
+    data_type: "float"
+  forecast_wind_degree:
+    description: "Forecast wind direction in degrees"
+    unit: "degrees (°)"
+    data_type: "integer"
+  forecast_wind_dir:
+    description: "Forecast wind direction as cardinal direction (e.g., 'NW', 'ESE')"
+    data_type: "string"
+  forecast_pressure_mb:
+    description: "Forecast pressure in millibars"
+    unit: "millibars (mb)"
+    data_type: "float"
+  forecast_pressure_in:
+    description: "Forecast pressure in inches of mercury"
+    unit: "inches of mercury (in)"
+    data_type: "float"
+  forecast_precip_mm:
+    description: "Forecast precipitation amount in millimeters"
+    unit: "millimeters (mm)"
+    data_type: "float"
+  forecast_precip_in:
+    description: "Forecast precipitation amount in inches"
+    unit: "inches (in)"
+    data_type: "float"
+  forecast_snow_cm:
+    description: "Forecast snow amount in centimeters"
+    unit: "centimeters (cm)"
+    data_type: "float"
+  forecast_humidity:
+    description: "Forecast humidity percentage"
+    unit: "percentage (%)"
+    data_type: "integer"
+  forecast_cloud:
+    description: "Forecast cloud cover percentage"
+    unit: "percentage (%)"
+    data_type: "integer"
+  forecast_feelslike_c:
+    description: "Forecast feels like temperature in Celsius"
+    unit: "degrees Celsius (°C)"
+    data_type: "float"
+  forecast_feelslike_f:
+    description: "Forecast feels like temperature in Fahrenheit"
+    unit: "degrees Fahrenheit (°F)"
+    data_type: "float"
+  forecast_windchill_c:
+    description: "Forecast windchill temperature in Celsius"
+    unit: "degrees Celsius (°C)"
+    data_type: "float"
+  forecast_windchill_f:
+    description: "Forecast windchill temperature in Fahrenheit"
+    unit: "degrees Fahrenheit (°F)"
+    data_type: "float"
+  forecast_heatindex_c:
+    description: "Forecast heat index temperature in Celsius"
+    unit: "degrees Celsius (°C)"
+    data_type: "float"
+  forecast_heatindex_f:
+    description: "Forecast heat index temperature in Fahrenheit"
+    unit: "degrees Fahrenheit (°F)"
+    data_type: "float"
+  forecast_dewpoint_c:
+    description: "Forecast dew point temperature in Celsius"
+    unit: "degrees Celsius (°C)"
+    data_type: "float"
+  forecast_dewpoint_f:
+    description: "Forecast dew point temperature in Fahrenheit"
+    unit: "degrees Fahrenheit (°F)"
+    data_type: "float"
+  forecast_will_it_rain:
+    description: "Forecast indicates if it will rain. 1 = Yes, 0 = No"
+    data_type: "integer"
+  forecast_chance_of_rain:
+    description: "Forecast chance of rain percentage"
+    unit: "percentage (%)"
+    data_type: "integer"
+  forecast_will_it_snow:
+    description: "Forecast indicates if it will snow. 1 = Yes, 0 = No"
+    data_type: "integer"
+  forecast_chance_of_snow:
+    description: "Forecast chance of snow percentage"
+    unit: "percentage (%)"
+    data_type: "integer"
+  forecast_vis_km:
+    description: "Forecast visibility in kilometers"
+    unit: "kilometers (km)"
+    data_type: "float"
+  forecast_vis_miles:
+    description: "Forecast visibility in miles"
+    unit: "miles"
+    data_type: "float"
+  forecast_gust_mph:
+    description: "Forecast wind gust speed in miles per hour"
+    unit: "miles per hour (mph)"
+    data_type: "float"
+  forecast_gust_kph:
+    description: "Forecast wind gust speed in kilometers per hour"
+    unit: "kilometers per hour (kph)"
+    data_type: "float"
+  forecast_uv:
+    description: "Forecast UV index"
+    unit: "UV index scale"
+    data_type: "float"

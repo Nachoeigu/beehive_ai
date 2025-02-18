@@ -1,0 +1,57 @@
+columns:
+  year:
+    description: "Year of data recording (YYYY), timestamp from sensor"
+    unit: "year"
+    data_type: "integer"
+  month:
+    description: "Month of data recording, timestamp from sensor"
+    unit: "month name"
+    data_type: "string"
+  day:
+    description: "Day of the month of data recording, timestamp from sensor"
+    unit: "day"
+    data_type: "integer"
+  hour_24h:
+    description: "Hour of the day in 24-hour format (HH:MM), timestamp from sensor"
+    unit: "hour"
+    data_type: "string"
+  beehive_temperature_c:
+    description: "Temperature inside the beehive, measured by sensor"
+    unit: "degrees Celsius (°C)"
+    data_type: "float"
+  beehive_humidity_percent:
+    description: "Relative humidity inside the beehive, measured by sensor"
+    unit: "percentage (%)"
+    data_type: "integer"
+  beehive_weight_kg:
+    description: "Total weight of the beehive, measured by sensor"
+    unit: "kilograms (kg)"
+    data_type: "float"
+  beehive_sound_db:
+    description: "Sound level inside the beehive, measured by sensor"
+    unit: "decibels (dB)"
+    data_type: "integer"
+  beehive_activity_0_10:
+    description: "Beehive activity level on a scale from 0 to 10 (0=min, 10=max), measured by sensor"
+    unit: "arbitrary scale"
+    data_type: "integer"
+  co2_ppm:
+    description: "Carbon Dioxide (CO2) concentration inside the beehive, measured by sensor"
+    unit: "parts per million (ppm)"
+    data_type: "integer"
+  voc_level:
+    description: "Volatile Organic Compounds (VOC) level inside the beehive, measured by sensor"
+    unit: "qualitative level (e.g., Low, Medium, High)"
+    data_type: "string"
+  pollen_level:
+    description: "Pollen collection level by bees, measured by sensor (less common)"
+    unit: "qualitative level (e.g., Low, Medium, High)"
+    data_type: "string"
+  latitude:
+    description: "Latitude coordinate of the beehive location, associated with sensor data"
+    unit: "degrees"
+    data_type: "float"
+  longitude:
+    description: "Longitude coordinate of the beehive location, associated with sensor data"
+    unit: "degrees"
+    data_type: "float"
