@@ -1,4 +1,4 @@
-columns:
+keys:
   current_last_updated_epoch:
     description: "Time when current conditions were last updated in epoch format (Unix timestamp)"
     unit: "seconds since Unix epoch"

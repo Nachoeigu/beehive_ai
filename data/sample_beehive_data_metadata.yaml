@@ -1,4 +1,4 @@
-columns:
+keys:
   year:
     description: "Year of data recording (YYYY), timestamp from sensor"
     unit: "year"

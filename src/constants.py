@@ -21,7 +21,10 @@ First, you will receive some metadata regarding the information about beehive se
 </BEEHIVE_METADATA>
 
 <BEEHIVE_SENSOR_DATA>
+Each element in the list is an hourly event. You will receive the last hours sensor data from the beehive.
+```json
 {beehive_sensor_data}
+```
 </BEEHIVE_SENSOR_DATA>
 
 </BEEHIVE_DATA>
@@ -33,7 +36,10 @@ Here you will receive the realtime weather data in the place where the beehive i
 </WEATHER_METADATA>
 
 <REALTIME_WEATHER_DATA>
+This json object contains the current weather data in the location where the beehive is present.
+```json
 {realtime_weather_data}
+```
 </REALTIME_WEATHER_DATA>
 
 </CURRENT_WEATHER_DATA>
@@ -46,6 +52,7 @@ Here you will receive the forecast weather data in the place where the beehive i
 </WEATHER_METADATA>
 
 <FORECAST_WEATHER_DATA>
+Each element in the list is a forecasted event. You will receive the forecast weather data for the next 48 hours.
 {forecast_weather_data}
 </FORECAST_WEATHER_DATA>
 
@@ -63,7 +70,7 @@ If the beehive status is good, reply with a JSON object with the following struc
 </POSITIVE_ANALYSIS>
 
 <NEGATIVE_ANALYSIS>
-If the beehive status needs assistance, reply with a JSON object with the following structure:
+If the beehive status is at risk and requires assistance, reply with a JSON object with the following structure:
 ```json
 {negative_example_format}
 ```
@@ -84,7 +91,7 @@ In your reasoning, you must include context data that justifies your conclusion 
 
 You are the best doing this job, and the bees are counting on you!
 You are the expert beekeeper, and you have the power to make a difference in the beehive's health and well-being.
-Let's think step by step during your analysis and work with precision, care and professionalism.
+Before start, take a deep breath. Let's think step by step during your analysis and work with precision, care and professionalism.
 """
 
 

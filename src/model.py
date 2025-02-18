@@ -26,9 +26,9 @@ class Agent:
                     beehive_metadata = json.dumps(self.beehive_metadata, indent = 4),
                     beehive_sensor_data = json.dumps(self.beehive_data.to_dict(orient='records'), indent = 4),
                     realtime_weather_metadata = json.dumps(self.external_realtime_metadata, indent = 4),
-                    realtime_weather_data = json.dumps(self.external_realtime_data.to_dict(orient='records'), indent = 4),
+                    realtime_weather_data = json.dumps(self.external_realtime_data.to_dict(orient='records')[0], indent = 4),
                     forecast_weather_metadata = json.dumps(self.external_forecast_metadata, indent = 4),
-                    forecast_weather_data = json.dumps(self.external_forcast_data.to_dict(orient='records'), indent = 4),
+                    forecast_weather_data = json.dumps(self.external_forcast_data.to_dict(orient='records')[:48], indent = 4),
                     positive_example_format = json.dumps({"status": "OK"}, indent = 4),
                     negative_example_format = json.dumps({"status": "ALERT","action": "...","reason": "..."}, indent = 4),
                     negative_example_output = json.dumps({"status": "ALERT","action": "Increase ventilation in the beehive","reason": "The beehive is currently experiencing high humidity levels, which can lead to mold growth and bee health issues. The forecast indicates a rise in temperature and humidity over the next 24 hours, exacerbating the situation. Increasing ventilation will help regulate the humidity levels and prevent adverse health effects on the bees."}, indent = 4)

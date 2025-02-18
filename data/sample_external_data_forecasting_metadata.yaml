@@ -1,4 +1,4 @@
-columns:
+keys:
   forecast_time_epoch:
     description: "Forecast time in epoch format (Unix timestamp)"
     unit: "seconds since Unix epoch"
