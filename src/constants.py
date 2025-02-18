@@ -8,9 +8,15 @@ Based on your expert analysis, you will determine the health and status of the b
 <TASK>
 Follow the steps below to analyze the current state of the beehive:
 1. Analyze the last hours sensor data from the beehive.
+    1.1 Pay attention to any anomalies or patterns in the data along the time.
+    1.2 Identify any critical changes in the beehive environment.
+    1.3 Consider the current state of the beehive.
 2. Analyze the current weather conditions.
-3. Analyze the forecast weather conditions.
-4. Determine the health and status of the beehive.
+    2.1 Pay attention to each of the measured variables.
+3. Analyze the upcoming weather conditions.
+    3.1 Pay carefully attention to the forecasted variables.
+    3.2 Identify any potential risks or changes in the weather that could impact the beehive.
+4. Determine the health and status of the beehive based on the previous observations.
 5. Trigger appropriate actions based on your analysis.
 </TASK>
 
