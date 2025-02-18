@@ -39,9 +39,7 @@ class Agent:
 
         cleaned_llm_output = cleaning_llm_output(llm_output)
 
-
-
-        print('-')
+        return cleaned_llm_output
 
 
 if __name__ == '__main__':
@@ -61,4 +59,6 @@ if __name__ == '__main__':
         external_forecast_metadata = external_forecast_metadata
     )
 
-    agent.analyze()
+    output = agent.analyze()
+
+    print(output)

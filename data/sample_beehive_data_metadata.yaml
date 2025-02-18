@@ -55,3 +55,7 @@ columns:
     description: "Longitude coordinate of the beehive location, associated with sensor data"
     unit: "degrees"
     data_type: "float"
+  beehive_sun_exposure:
+    description: "Indicates whether the beehive is in 'Sun' or 'Shade' at the time of recording"
+    unit: "category"
+    data_type: "string"
