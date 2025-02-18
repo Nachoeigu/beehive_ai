@@ -2,7 +2,6 @@ import pandas as pd
 import httpx
 from dotenv import load_dotenv
 import os
-import asyncio
 import json
 from datetime import datetime
 import aiofiles
