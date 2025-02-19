@@ -46,10 +46,10 @@ async def get_external_metadata() -> dict:
 
 async def get_sensor_data(testing_data: bool = False) -> pd.DataFrame:
     """
-    Get sensor data about the beehive.
+    Get sensor data about the last 48 hours beehive.
     """
     if testing_data:
-        return pd.read_csv("./data/sample_beehive_data.csv")
+        return pd.read_csv("./data/sample_beehive_data.csv")[-48:]
     else:
         NoImplemented("You should implement the data extraction from your own sensor")
 
