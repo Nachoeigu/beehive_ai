@@ -80,6 +80,8 @@ If the beehive status is at risk and requires assistance, reply with a JSON obje
 ```json
 {negative_example_format}
 ```
+Don't use this formatted output for suggestions, use only if the beehive is at risk and requires assistance.
+
 For action key, you should place the action the beekeeper should take.
 For reason key, you should place a highly detailed in-depth explanation why the action is needed based on your analysis. 
 
