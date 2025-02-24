@@ -1,0 +1,45 @@
+keys:
+  beehive_id:
+    description: "Unique identifier for the beehive"
+    unit: "integer"
+    data_type: "integer"
+  timestamp:
+    description: "Timestamp of data recording from sensor"
+    unit: "datetime"
+    data_type: "datetime"
+  season_name:
+    description: "Season of the year"
+    unit: "season name"
+    data_type: "string"
+  hour_24h:
+    description: "Hour of the day in 24-hour format (HH:MM), timestamp from sensor"
+    unit: "hour"
+    data_type: "string"
+  beehive_temperature_c:
+    description: "Temperature inside the beehive, measured by sensor, rounded to one decimal place"
+    unit: "degrees Celsius (°C)"
+    data_type: "float"
+  beehive_humidity_percent:
+    description: "Relative humidity inside the beehive, measured by sensor, proportion from 0 to 1, rounded to two decimal places"
+    unit: "proportion (0-1)"
+    data_type: "float"
+  beehive_weight_kg:
+    description: "Total weight of the beehive, measured by sensor, rounded to two decimal places"
+    unit: "kilograms (kg)"
+    data_type: "float"
+  beehive_sound_db:
+    description: "Sound level inside the beehive, measured by sensor"
+    unit: "decibels (dB)"
+    data_type: "integer"
+  co2_ppm:
+    description: "Carbon Dioxide (CO2) concentration inside the beehive, measured by sensor"
+    unit: "parts per million (ppm)"
+    data_type: "integer"
+  voc_level:
+    description: "Volatile Organic Compounds (VOC) level inside the beehive, measured by sensor"
+    unit: "qualitative level (e.g., Low, Medium, High)"
+    data_type: "string"
+  beehive_sun_exposure:
+    description: "Indicates whether the beehive is in 'Sun' or 'Shade' at the time of recording"
+    unit: "category"
+    data_type: "string"

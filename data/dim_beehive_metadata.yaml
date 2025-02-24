@@ -1,0 +1,13 @@
+keys:
+  beehive_id:
+    description: "Unique identifier for the beehive"
+    unit: "integer"
+    data_type: "integer"
+  beehive_location:
+    description: "Combined latitude and longitude coordinates of the beehive location"
+    unit: "string (latitude,longitude)"
+    data_type: "string"
+  initial_weight_kg:
+    description: "Initial weight of the beehive at the start of the data recording"
+    unit: "kilograms (kg)"
+    data_type: "float"
